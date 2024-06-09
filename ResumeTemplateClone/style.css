@@ -1,0 +1,136 @@
+body{
+    font-family: 'Arial',  sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.resume {
+    display: flex;
+    max-width: 900px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+aside{
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.profile h1 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+.profile p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+.contact, .skills {
+   width: 100%;
+   margin-top: 20px;
+}
+
+.contact h2{
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 5px;
+}
+
+.contact p {
+    margin: 5px 0;
+    font-size: 0.9em;
+} 
+
+.skills ul {
+     padding-left: 20px;
+}
+
+.skill_name {
+    width: 25%;
+}
+
+.skill_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background:  #c53434;
+    position: relative;
+
+}
+
+.skill_per {
+    width: 15%;
+}
+
+.skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #009fd9;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h3 {
+     margin: 5px 0;
+     font-size: 1.1em;
+}
+
+.experience-item p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    list-style-type: disc;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+
